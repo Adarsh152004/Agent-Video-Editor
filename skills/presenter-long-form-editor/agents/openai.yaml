@@ -1,0 +1,5 @@
+interface:
+  display_name: "Presenter Long-Form Editor"
+  short_description: "Direct and polish branded long-form presenter videos"
+  brand_color: "#3659e3"
+  default_prompt: "Use $presenter-long-form-editor to create a professional directive-driven 4K long-form presenter edit."

@@ -1,0 +1,26 @@
+{
+  "name": "agent-video-editor",
+  "version": "0.1.0",
+  "description": "AI-powered presenter and explainer video editor",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm --prefix app install",
+    "build": "npm --prefix app run build",
+    "start": "npm --prefix app start",
+    "start:no-open": "npm --prefix app start -- --no-open",
+    "dev": "npm --prefix app run dev",
+    "test": "npm --prefix app test"
+  },
+  "keywords": [
+    "video-editor",
+    "ai",
+    "agent",
+    "remotion",
+    "ffmpeg",
+    "motion-graphics"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
+

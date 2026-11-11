@@ -1,0 +1,5 @@
+interface:
+  display_name: "Presenter Intro Editor"
+  short_description: "Direct and polish branded presenter intros"
+  brand_color: "#3659e3"
+  default_prompt: "Use $presenter-intro-editor to create a professional directive-driven 4K presenter intro edit."

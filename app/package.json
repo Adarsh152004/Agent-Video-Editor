@@ -1,0 +1,27 @@
+{
+  "name": "agent-video-editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "tsx src/server/index.ts --dev",
+    "build": "tsc --noEmit && vite build && tsc -p tsconfig.server.json",
+    "start": "node dist/server/server/index.js",
+    "test": "node scripts/check-tokens.mjs && vitest run"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
